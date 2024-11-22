@@ -1,0 +1,338 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(4, 4, 10);
+    color: white;
+}
+
+    #navbar{
+        position: fixed;
+        top: 10px;
+    }
+    #heading{
+   font-size: xx-large;
+   position: relative;
+   top: 20px;
+    }
+    #colchg{
+        color: red;
+        font-weight: bolder;
+        font-size: xx-large;
+        
+    }
+
+    
+
+#avglogo{
+    height: 80px;
+    width: 90px;
+    border-radius: 50px;
+    margin: 10px;
+   
+}
+#navicon{
+    display: flex;
+}
+#home{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 800px;
+    width: fit-content;
+    border: 3px red solid;
+    width: 100%;
+    color: aliceblue;
+    background-image: url("WhatsApp\ Image\ 2024-11-18\ at\ 21.06.26_26be8987.jpg");
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background: position 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h1{
+        font-size: xx-large;
+        color: rgb(6, 6, 6);
+        text-align: center;
+        font-family: cursive;
+        background-color: transparent;
+        border: 2px solid ;
+        border-radius: 10px;
+    }
+    p{
+
+    }
+    button:hover{
+        background-color: transparent;
+        border: 2px black solid;
+    }
+    button{
+        margin: 10px;
+        padding: 10px;
+        display: inline;
+        width: fit-content;
+        border: red solid 3px;
+        background-color: red;
+        align-self: center;
+        
+    }
+
+}
+#homesection{
+    display: flex;
+    flex-direction: column;
+}
+#aboutmain{
+    display: flex;
+    flex-direction: row;
+    height: 750px;
+    width: fit-content;
+    border: 3px double grey;
+}
+#aboutimg1{
+    height: 600px;
+    width: 400px;
+}
+#aboutimg2{
+    height: 600px;
+    width: 400px;
+}
+#aboutdiv1{
+    display: flex;
+}
+#aboutdiv2{
+    h1{
+        font-family: cursive;
+        text-decoration: underline;
+        text-align: center;
+    }
+    p{
+        font-family: cursive;
+        margin: 20px;
+    }
+    button{
+        font-weight: bolder;
+        background-color: rgb(193, 57, 57);
+        border: 2px black solid;
+        width: fit-content;
+        align-self: center;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+    button:hover{
+        background-color: grey;
+    }
+    background-color: rgb(14, 13, 13);
+    height: 90%;
+    color: rgb(235, 235, 243);
+    
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#about{
+    #aboutmain{
+        display: flex;
+        
+        justify-content: center;
+        align-items: center;
+    }
+    h1{
+        color: red;
+        text-align: center;
+        font-size: xx-large;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    margin-top: 50px;
+    background-color: rgb(13, 13, 54);
+}
+#navbar{
+    width: 1500px; ;
+   
+    
+    display: flex;
+    background-color:transparent;
+    border-top-left-radius: 30px;
+    justify-content: space-between;
+    color: white;
+    z-index: 3;
+}
+#Links{
+    display: flex;
+    justify-content: space-evenly;
+    a{
+        margin: 30px;
+    }
+    a:hover{
+        background-color:black;
+        color: cyan;
+        padding: 10px;
+        text-decoration: underline;
+        font-weight: bolder;
+        transition-duration: 1s;
+        border-radius: 10px;
+    }
+
+}
+.teamavgsec{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    img{
+        height: 300px;
+        width: 400px;
+    }
+    .teamavgabout{
+        margin: 10px;
+        border: 2px solid red;
+        width: 900px;
+        display: inline-flex;
+        flex-direction:column;
+        justify-content: start;
+        h1{
+            display: inline;
+        }
+        
+    }
+
+}
+#teamavg{
+    #teamhead{
+    text-align: center;
+    font-size: xx-large;
+    color: red;
+    }
+}
+
+#gallerysection{
+    h1{
+        text-align: center;
+        font-size: xx-large;
+        color: red;
+        margin: 20px;
+        padding: 20px;
+    }
+}
+.card:hover{
+    img{
+        overflow: hidden;
+        position: relative;
+        transform: translateY(-80%);
+        transition-duration: 1s;
+        transition-timing-function: ease-in-out;
+    }
+}
+#galleryheading{
+    color: black;
+}
+.card{
+    overflow: hidden;
+    position: relative;
+    height: 500px;
+    width: 450px;
+    background-color: azure;
+    img{
+          
+        height:100%;
+        width: 100%;
+        z-index: 2;
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+        padding: 20px;
+        background-color: black;
+        position: absolute;
+        top: 25%;
+        left: 15%;
+        z-index: 1;
+        
+        
+            
+        
+        button{
+            margin-top: 10px;
+            background-color: white;
+            padding: 10px;
+            color: black;
+            border-radius: 5px;
+        }
+       
+    }
+}
+#gallery{
+    
+    display: grid;
+    gap: 0px;
+    grid-template-rows: repeat(2,600px);
+    grid-template-columns: repeat(3,1fr);
+    
+   
+}
+#contactsection{
+    display: flex;
+    justify-content: space-around;
+    img{
+        border: 2px double red;
+        width: 500px;
+        height: 600px;
+    }
+}
+#contactform{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:;
+    input{
+        width: 500px;
+        height: 50px;
+    }
+    #message{
+        height: 300px;
+    }
+}
+#contacthead{
+    text-decoration: underline;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    color: red;
+}
+#contactbtn{
+    border: 2px solid red;
+    background-color: aquamarine;
+    color: blue;
+    width: fit-content;
+    align-self: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+footer{
+    color: brown;
+    padding: 20px;
+    background-color: rgb(30, 30, 31);
+    display: flex;
+    justify-content: space-around;
+    h1{
+        font-size: x-large;
+        font-weight: bolder;
+        text-decoration: underline;
+    }
+    h2{
+        font-size: x-large;
+    }
+    section{
+        
+        padding: 30px;
+        border-radius: 30px;
+        background-color: rgb(227, 204, 169);
+    }
+}
+i{
+    font-size: x-large;
+}
+
