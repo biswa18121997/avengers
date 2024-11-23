@@ -197,6 +197,15 @@ body{
     }
 
 }
+.teamavgsec:hover{
+    overflow: hidden;
+    img{
+        scale: 110%;
+        transform: skew(20deg,10deg);
+        transition-duration: 0.5s;
+        transition-timing-function: ease-in-out;
+    }
+}
 #teamavg{
     #teamhead{
     text-align: center;
